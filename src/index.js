@@ -1,3 +1,8 @@
-const str = "World";
+// @flow
+/* eslint-disable no-console */
 
-console.log(`Hello ${str}`);
+import Dog from './dog'
+
+const toby = new Dog('Toby')
+
+console.log(toby.bark())
